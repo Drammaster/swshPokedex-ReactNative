@@ -1,0 +1,17 @@
+export default {
+    primary: '#f7287b',
+    fire: '',
+    electric: '',
+    grass: '',
+    water: '',
+    ground: '',
+    rock: '',
+    ice: '',
+    steel: '',
+    normal: '',
+    flying: '',
+    fairy: '',
+    dragon: '',
+    ghost: '',
+    fighting: '',
+}

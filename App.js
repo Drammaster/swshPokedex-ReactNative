@@ -3,6 +3,10 @@ import { StyleSheet, View, Text } from 'react-native';
 
 import PokemonLoader from './components/pokemonLoader';
 
+import Colors from './constants/colors';
+import Fontsize from './constants/fontsize';
+import Pads from './constants/pads';
+
 export default function App() {
   
   return (
@@ -24,14 +28,16 @@ const styles = StyleSheet.create({
 
   header: {
     flex: 1,
-    marginTop: 25,
+    marginTop: Pads.header,
     textAlign: "center",
-    fontSize: 50,
+    fontSize: Fontsize.header,
     fontWeight: "bold",
+    borderBottomColor: 'black',
+    borderBottomWidth: 2,
   },
 
   body: {
-    flex: 5,
+    flex: 14,
     justifyContent: "center",
   }
 });

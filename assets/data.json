@@ -1,4 +1,10 @@
-{
-    "name": "Pikachu",
-    "type": "Electric"
-}
+[
+    {
+        "name": "Pikachu",
+        "type": "Electric"
+    },
+    {
+        "name": "Charmander",
+        "type": "Fire"
+    }
+]
