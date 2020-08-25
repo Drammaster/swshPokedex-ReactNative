@@ -6,5 +6,25 @@
     {
         "name": "Charmander",
         "type": "Fire"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric"
     }
 ]
