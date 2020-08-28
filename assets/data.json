@@ -1,30 +1,42 @@
 [
     {
-        "name": "Pikachu",
-        "type": "Electric"
+        "id" : "1",
+        "name": "Bulbasaur",
+        "type": "Grass"
     },
     {
+        "id" : "2",
         "name": "Charmander",
         "type": "Fire"
     },
     {
+        "id" : "3",
+        "name": "Pichu",
+        "type": "Electric"
+    },
+    {
+        "id" : "4",
         "name": "Pikachu",
         "type": "Electric"
     },
     {
-        "name": "Pikachu",
+        "id" : "5",
+        "name": "Raichu",
         "type": "Electric"
     },
     {
-        "name": "Pikachu",
-        "type": "Electric"
+        "id" : "6",
+        "name": "Squirtle",
+        "type": "Water"
     },
     {
-        "name": "Pikachu",
-        "type": "Electric"
+        "id" : "7",
+        "name": "Warturtle",
+        "type": "Water"
     },
     {
-        "name": "Pikachu",
-        "type": "Electric"
+        "id" : "8",
+        "name": "Blastoids",
+        "type": "Water"
     }
 ]

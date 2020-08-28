@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, FlatList } from 'react-native';
 
-import PokemonLoader from './components/pokemonLoader';
+import GoalItem from './components/GoalItem';
 
 import Colors from './constants/colors';
 import Fontsize from './constants/fontsize';
 import Pads from './constants/pads';
+import Data from './assets/data.json';
 
 export default function App() {
   
@@ -13,7 +14,11 @@ export default function App() {
     <View style={styles.screen}>
       <Text style={styles.header}>Pokedex SwSh</Text>
       <View style={styles.body}>
-        <PokemonLoader />
+          <FlatList
+          keyExtractor={(item, index) => item.id}
+          data={Data}
+          renderItem={itemData => <GoalItem id={itemData.item.id} name={itemData.item.name} />}
+          />
       </View>
     </View>
   );
@@ -35,9 +40,13 @@ const styles = StyleSheet.create({
     borderBottomColor: 'black',
     borderBottomWidth: 2,
   },
-
   body: {
     flex: 14,
     justifyContent: "center",
+  },
+  container: {
+    flex: 1,
+    flexDirection: "row",
+    flexWrap: "wrap",
   }
 });
