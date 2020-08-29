@@ -15,9 +15,11 @@ export default function App() {
       <Text style={styles.header}>Pokedex SwSh</Text>
       <View style={styles.body}>
           <FlatList
+          style={styles.myList}
           keyExtractor={(item, index) => item.id}
           data={Data}
-          renderItem={itemData => <GoalItem id={itemData.item.id} name={itemData.item.name} />}
+          numColumns={2}
+          renderItem={itemData => <GoalItem id={itemData.item.id} name={itemData.item.name} type={itemData.item.type}/>}
           />
       </View>
     </View>
@@ -43,10 +45,6 @@ const styles = StyleSheet.create({
   body: {
     flex: 14,
     justifyContent: "center",
-  },
-  container: {
-    flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
+    backgroundColor: '#ffe'
   }
 });
