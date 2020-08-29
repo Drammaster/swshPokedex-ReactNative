@@ -1,42 +1,46 @@
 [
     {
-        "id" : "1",
         "name": "Bulbasaur",
-        "type": "Grass"
+        "type": ["Grass"]
     },
     {
-        "id" : "2",
         "name": "Charmander",
-        "type": "Fire"
+        "type": ["Fire"]
     },
     {
-        "id" : "3",
         "name": "Pichu",
-        "type": "Electric"
+        "type": ["Electric"]
     },
     {
-        "id" : "4",
         "name": "Pikachu",
-        "type": "Electric"
+        "type": ["Electric"]
     },
     {
-        "id" : "5",
         "name": "Raichu",
-        "type": "Electric"
+        "type": ["Electric"]
     },
     {
-        "id" : "6",
         "name": "Squirtle",
-        "type": "Water"
+        "type": ["Water"]
     },
     {
-        "id" : "7",
         "name": "Warturtle",
-        "type": "Water"
+        "type": ["Water"]
     },
     {
-        "id" : "8",
         "name": "Blastoids",
-        "type": "Water"
+        "type": ["Water"]
+    },
+    {
+        "name": "Zacian",
+        "type": ["Fighting"]
+    },
+    {
+        "name": "Zhamazenta",
+        "type": ["Steel"]
+    },
+    {
+        "name": "Eternatus",
+        "type": ["Dragon"]
     }
 ]

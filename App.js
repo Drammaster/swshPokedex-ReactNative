@@ -16,7 +16,7 @@ export default function App() {
       <View style={styles.body}>
           <FlatList
           style={styles.myList}
-          keyExtractor={(item, index) => item.id}
+          keyExtractor={(item, index) => item.name}
           data={Data}
           numColumns={2}
           renderItem={itemData => <GoalItem id={itemData.item.id} name={itemData.item.name} type={itemData.item.type}/>}

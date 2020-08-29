@@ -28,7 +28,7 @@ export default {
       fill="#fff"
     />
   </Svg>,
-    fightning: <Svg width={100} height={100} viewBox="0 0 512 512" fill="none">
+    fighting: <Svg width={100} height={100} viewBox="0 0 512 512" fill="none">
     <Path
       fillRule="evenodd"
       clipRule="evenodd"
