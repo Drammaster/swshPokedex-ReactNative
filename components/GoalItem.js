@@ -68,7 +68,7 @@ const GoalItem = props => {
         <TouchableOpacity activeOpacity={0.9}>
             <View style={[styles.listItem, {backgroundColor: pokemonColor}]}>
                 <Text style={styles.title}>{props.name}</Text>
-                {pokemonType}
+                <View style={{alignSelf: 'center'}}>{pokemonType}</View>
             </View>
         </TouchableOpacity>
         
@@ -86,6 +86,7 @@ const styles = StyleSheet.create({
         margin: 8.5,
     },
     title: {
+        textAlign: 'center',
         fontSize: Fonts.cardTitle,
     }
 });
